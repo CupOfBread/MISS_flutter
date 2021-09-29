@@ -1,0 +1,49 @@
+name: miss
+description: A Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  proste_indexed_stack: ^0.2.4
+  cupertino_icons: ^1.0.2
+  #百度地图
+  flutter_baidu_mapapi_map: ^3.0.0+2
+  flutter_baidu_mapapi_utils: ^3.0.0
+  flutter_baidu_mapapi_search: ^3.0.0
+  flutter_bmflocation: ^2.0.0-nullsafety.1
+  photo_view: ^0.12.0
+  image_gallery_saver: ^1.6.9
+  permission_handler: ^8.1.6
+  flutter_svg: ^0.22.0
+  dio: ^4.0.0
+  cookie_jar: 3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/images/nav/
+    - assets/images/girls/
+    - assets/images/community/
+    - files/4cd6e8996e6bc4bb3d0194ba01ec7b89.sty
+
+  fonts:
+    - family: Pixel
+      fonts:
+        - asset: assets/font/pixel.ttf
+    - family: SiyuanHei
+      fonts:
+        - asset: assets/font/SiyuanHei.otf
